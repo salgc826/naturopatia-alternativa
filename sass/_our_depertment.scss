@@ -1,5 +1,4 @@
 .our_depertment {
-    @include background("../img/review_bg.png");
     position: relative;
     z-index: 1;
     @media #{$tab} {
@@ -16,7 +15,6 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgb(28, 25, 171);
         opacity: 0.8;
         z-index: -1;
     }
